@@ -6,11 +6,13 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dp">
 
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:cardCornerRadius="8dp"
+        app:cardCornerRadius="18dp"
         app:cardElevation="8dp"
+        android:backgroundTint="@color/green_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,9 +25,11 @@
 
             <com.google.android.material.checkbox.MaterialCheckBox
                 android:id="@+id/mcheckbox"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_width="391dp"
+                android:layout_height="81dp"
+                android:layout_marginRight="-10dp"
                 android:buttonTint="#FF5722"
+                android:textColor="@color/white"
                 android:paddingStart="10dp"
                 android:text="This is Task 1"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -33,7 +37,7 @@
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1.0" />
+                app:layout_constraintVertical_bias="0.0" />
 
             <TextView
                 android:id="@+id/due_date_tv"
@@ -41,15 +45,18 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:text="31-10-2023"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/white"
                 android:textSize="14sp"
+                android:layout_marginLeft="25dp"
 
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.851"
+                app:layout_constraintHorizontal_bias="0.111"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
 
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintVertical_bias="1.0" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

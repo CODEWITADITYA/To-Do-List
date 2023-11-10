@@ -10,18 +10,11 @@
     tools:context=".SplashActivity">
 
 
-
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/to"
-        android:layout_marginLeft="20dp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Powered by Aditya Godbole"
-        android:textSize="23dp"
-        android:layout_marginTop="60dp"
-        android:textColor="@color/white"/>
+        android:layout_width="193dp"
+        android:layout_height="179dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/to" />
+
 
 </LinearLayout>
